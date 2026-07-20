@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "name": "オーガニックコーヒー豆",
+    "description": "香り豊かな中煎りのオーガニックコーヒー豆 200g",
+    "price": 1200,
+    "category_id": 1,
+    "image_url": "https://placehold.co/300x300?text=Coffee",
+    "created_at": "2026-02-01T09:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "国産はちみつ",
+    "description": "国産アカシア蜂蜜 300g",
+    "price": 980,
+    "category_id": 1,
+    "image_url": "https://placehold.co/300x300?text=Honey",
+    "created_at": "2026-02-02T09:00:00Z"
+  },
+  {
+    "id": 3,
+    "name": "ワイヤレスイヤホン",
+    "description": "ノイズキャンセリング対応の完全ワイヤレスイヤホン",
+    "price": 8900,
+    "category_id": 2,
+    "image_url": "https://placehold.co/300x300?text=Earphones",
+    "created_at": "2026-02-03T09:00:00Z"
+  },
+  {
+    "id": 4,
+    "name": "電気ケトル",
+    "description": "1.0Lコンパクト電気ケトル",
+    "price": 3200,
+    "category_id": 2,
+    "image_url": "https://placehold.co/300x300?text=Kettle",
+    "created_at": "2026-02-04T09:00:00Z"
+  },
+  {
+    "id": 5,
+    "name": "コットンTシャツ",
+    "description": "肌触りの良いオーガニックコットンTシャツ",
+    "price": 2500,
+    "category_id": 3,
+    "image_url": "https://placehold.co/300x300?text=T-Shirt",
+    "created_at": "2026-02-05T09:00:00Z"
+  },
+  {
+    "id": 6,
+    "name": "デニムジャケット",
+    "description": "着回しやすいレギュラーフィットのデニムジャケット",
+    "price": 6800,
+    "category_id": 3,
+    "image_url": "https://placehold.co/300x300?text=Jacket",
+    "created_at": "2026-02-06T09:00:00Z"
+  },
+  {
+    "id": 7,
+    "name": "推薦システム入門",
+    "description": "コンテンツベースフィルタリングを学べる技術書",
+    "price": 3400,
+    "category_id": 4,
+    "image_url": "https://placehold.co/300x300?text=Book",
+    "created_at": "2026-02-07T09:00:00Z"
+  },
+  {
+    "id": 8,
+    "name": "React実践ガイド",
+    "description": "React + Viteでのフロントエンド開発を解説",
+    "price": 2980,
+    "category_id": 4,
+    "image_url": "https://placehold.co/300x300?text=Book2",
+    "created_at": "2026-02-08T09:00:00Z"
+  },
+  {
+    "id": 9,
+    "name": "厳選国産米 5kg",
+    "description": "新潟県産コシヒカリ 精米5kg",
+    "price": 2800,
+    "category_id": 1,
+    "image_url": "https://placehold.co/300x300?text=Rice",
+    "created_at": "2026-02-09T09:00:00Z"
+  },
+  {
+    "id": 10,
+    "name": "スマートウォッチ",
+    "description": "心拍数・睡眠計測に対応したスマートウォッチ",
+    "price": 12800,
+    "category_id": 2,
+    "image_url": "https://placehold.co/300x300?text=Smartwatch",
+    "created_at": "2026-02-10T09:00:00Z"
+  },
+  {
+    "id": 11,
+    "name": "軽量ダウンジャケット",
+    "description": "コンパクトに収納できる軽量ダウンジャケット",
+    "price": 9800,
+    "category_id": 3,
+    "image_url": "https://placehold.co/300x300?text=Down+Jacket",
+    "created_at": "2026-02-11T09:00:00Z"
+  },
+  {
+    "id": 12,
+    "name": "はじめてのDocker",
+    "description": "コンテナ技術の基礎から実践までを解説する入門書",
+    "price": 3080,
+    "category_id": 4,
+    "image_url": "https://placehold.co/300x300?text=Book3",
+    "created_at": "2026-02-12T09:00:00Z"
+  },
+  {
+    "id": 13,
+    "name": "保湿フェイスクリーム",
+    "description": "乾燥肌にうるおいを与える無香料フェイスクリーム",
+    "price": 2200,
+    "category_id": 5,
+    "image_url": "https://placehold.co/300x300?text=Face+Cream",
+    "created_at": "2026-02-13T09:00:00Z"
+  },
+  {
+    "id": 14,
+    "name": "UVカット日焼け止め",
+    "description": "SPF50+ PA++++の高保護日焼け止め乳液",
+    "price": 1800,
+    "category_id": 5,
+    "image_url": "https://placehold.co/300x300?text=Sunscreen",
+    "created_at": "2026-02-14T09:00:00Z"
+  },
+  {
+    "id": 15,
+    "name": "リップグロスセット",
+    "description": "全5色展開の潤いリップグロス3本セット",
+    "price": 2600,
+    "category_id": 5,
+    "image_url": "https://placehold.co/300x300?text=Lip+Gloss",
+    "created_at": "2026-02-15T09:00:00Z"
+  },
+  {
+    "id": 16,
+    "name": "ヨガマット",
+    "description": "滑りにくい6mm厚のトレーニング用ヨガマット",
+    "price": 3500,
+    "category_id": 6,
+    "image_url": "https://placehold.co/300x300?text=Yoga+Mat",
+    "created_at": "2026-02-16T09:00:00Z"
+  },
+  {
+    "id": 17,
+    "name": "折りたたみキャンプチェア",
+    "description": "軽量でコンパクトに収納できるアウトドアチェア",
+    "price": 4200,
+    "category_id": 6,
+    "image_url": "https://placehold.co/300x300?text=Camp+Chair",
+    "created_at": "2026-02-17T09:00:00Z"
+  },
+  {
+    "id": 18,
+    "name": "ランニングシューズ",
+    "description": "クッション性に優れた軽量ランニングシューズ",
+    "price": 7900,
+    "category_id": 6,
+    "image_url": "https://placehold.co/300x300?text=Running+Shoes",
+    "created_at": "2026-02-18T09:00:00Z"
+  },
+  {
+    "id": 19,
+    "name": "プラモデル 戦闘機シリーズ",
+    "description": "1/72スケールの組み立て式プラモデル",
+    "price": 2400,
+    "category_id": 7,
+    "image_url": "https://placehold.co/300x300?text=Model+Kit",
+    "created_at": "2026-02-19T09:00:00Z"
+  },
+  {
+    "id": 20,
+    "name": "1000ピースジグソーパズル",
+    "description": "風景画をモチーフにした1000ピースパズル",
+    "price": 1900,
+    "category_id": 7,
+    "image_url": "https://placehold.co/300x300?text=Puzzle",
+    "created_at": "2026-02-20T09:00:00Z"
+  },
+  {
+    "id": 21,
+    "name": "ボードゲーム 戦略シミュレーション",
+    "description": "2〜4人で楽しめる戦略ボードゲーム",
+    "price": 5200,
+    "category_id": 7,
+    "image_url": "https://placehold.co/300x300?text=Board+Game",
+    "created_at": "2026-02-21T09:00:00Z"
+  },
+  {
+    "id": 22,
+    "name": "ステンレス製フライパン",
+    "description": "こびりつきにくい多層構造のステンレスフライパン 26cm",
+    "price": 4800,
+    "category_id": 8,
+    "image_url": "https://placehold.co/300x300?text=Frying+Pan",
+    "created_at": "2026-02-22T09:00:00Z"
+  },
+  {
+    "id": 23,
+    "name": "包丁3点セット",
+    "description": "三徳包丁・ペティナイフ・シャープナーのセット",
+    "price": 6200,
+    "category_id": 8,
+    "image_url": "https://placehold.co/300x300?text=Knife+Set",
+    "created_at": "2026-02-23T09:00:00Z"
+  },
+  {
+    "id": 24,
+    "name": "耐熱ガラス保存容器セット",
+    "description": "電子レンジ・食洗機対応の保存容器5個セット",
+    "price": 3300,
+    "category_id": 8,
+    "image_url": "https://placehold.co/300x300?text=Storage+Set",
+    "created_at": "2026-02-24T09:00:00Z"
+  },
+  {
+    "id": 25,
+    "name": "ペット用自動給餌器",
+    "description": "タイマー設定で自動給餌できるペットフィーダー",
+    "price": 7600,
+    "category_id": 9,
+    "image_url": "https://placehold.co/300x300?text=Pet+Feeder",
+    "created_at": "2026-02-25T09:00:00Z"
+  },
+  {
+    "id": 26,
+    "name": "犬用クッションベッド",
+    "description": "洗える中型犬用のふかふかクッションベッド",
+    "price": 4400,
+    "category_id": 9,
+    "image_url": "https://placehold.co/300x300?text=Pet+Bed",
+    "created_at": "2026-02-26T09:00:00Z"
+  },
+  {
+    "id": 27,
+    "name": "猫用爪とぎタワー",
+    "description": "麻縄巻きの据え置き型キャットタワー",
+    "price": 8800,
+    "category_id": 9,
+    "image_url": "https://placehold.co/300x300?text=Cat+Tower",
+    "created_at": "2026-02-27T09:00:00Z"
+  },
+  {
+    "id": 28,
+    "name": "多機能ノートパソコンスタンド",
+    "description": "角度調整可能なアルミ製ノートPCスタンド",
+    "price": 3100,
+    "category_id": 10,
+    "image_url": "https://placehold.co/300x300?text=Laptop+Stand",
+    "created_at": "2026-02-28T09:00:00Z"
+  },
+  {
+    "id": 29,
+    "name": "高級万年筆",
+    "description": "手に馴染む樹脂軸の万年筆 中字",
+    "price": 5400,
+    "category_id": 10,
+    "image_url": "https://placehold.co/300x300?text=Fountain+Pen",
+    "created_at": "2026-03-01T09:00:00Z"
+  },
+  {
+    "id": 30,
+    "name": "A5システム手帳",
+    "description": "リフィル交換可能な本革カバーのシステム手帳",
+    "price": 6600,
+    "category_id": 10,
+    "image_url": "https://placehold.co/300x300?text=Planner",
+    "created_at": "2026-03-02T09:00:00Z"
+  }
+]
