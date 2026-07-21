@@ -6,6 +6,22 @@ services:
     volumes:
       - ./frontend:/app
       - /app/node_modules
+    environment:
+      - VITE_API_URL=http://localhost:8000
+    depends_on:
+      - backend
+
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+    environment:
+      - DATABASE_URL=postgresql://app:app@db:5432/filtering_app
+    depends_on:
+      db:
+        condition: service_healthy
 
   db:
     image: postgres:16-alpine
@@ -18,6 +34,11 @@ services:
     volumes:
       - db_data:/var/lib/postgresql/data
       - ./db/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U app -d filtering_app"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
 
 volumes:
   db_data:

@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 
-function ProductCard({ product }) {
+function ProductCard({ product, linkState }) {
   const { id, name, description, price, category_name, image_url } = product;
 
   return (
-    <Link className="product-card" to={`/products/${id}`}>
+    <Link className="product-card" to={`/products/${id}`} state={linkState}>
       <img className="product-card-image" src={image_url} alt={name} />
       <div className="product-card-body">
         {category_name && <span className="product-card-category">{category_name}</span>}
